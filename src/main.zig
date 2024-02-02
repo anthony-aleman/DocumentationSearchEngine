@@ -1,7 +1,9 @@
 const std = @import("std");
 
 pub fn main() !void {
-    const allocator = std.hea
+    std.debug.print("Hello world", .{});
+    const genPuposeAllocator = std.heap.GeneralPurposeAllocator(.{});
+    defer
 }
 
 test "simple test" {

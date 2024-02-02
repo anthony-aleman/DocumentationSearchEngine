@@ -1,0 +1,6 @@
+/zig-out
+/zig-cache
+/zig-out/bin
+/zig-cache/h
+/zig-cache/o
+/zig-cache/z
